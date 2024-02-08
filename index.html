@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Des meilleure comptes/followers&vu&like/application de haking</title>
+    <link rel="stylesheet" href="styleclient.css">
+    <link rel="icon" href="icon.ico">
+</head>
+<script>
+    function viewinfo() {
+        var inf = document.getElementById("information") ; 
+        inf.style.width = "250px" ; 
+        inf.style.height = "200px" ; 
+        inf.style.opacity = "100%" ; 
+        inf.style.padding = "10px" ; 
+        document.getElementById("spaceinf").style.display = "inline-block" ; 
+    }
+    function hidinfo() {
+        var inf = document.getElementById("information") ; 
+        inf.style.width = "0px" ; 
+        inf.style.height = "0px" ; 
+        inf.style.opacity = "0%" ; 
+        inf.style.padding = "0px" ; 
+        document.getElementById("spaceinf").style.display = "none" ; 
+    }
+
+    function readmore() {
+        var vis = document.getElementById("visite") ;
+        vis.style.height = "auto" ; 
+        vis.style.padding = "15px" ; 
+        vis.style.opacity = "100%" ;
+        document.getElementById("spacevisite").style.display = "inline-block" ; 
+    }
+
+    function anulermore() {
+        var vis = document.getElementById("visite") ;
+        vis.style.height = "0px" ; 
+        vis.style.padding = "0px" ; 
+        vis.style.opacity = "0%" ;
+        document.getElementById("spacevisite").style.display = "none" ;    
+    }
+
+</script>
+<body>
+    <header>
+        <a class="logo" onmouseover="viewinfo()" onclick="hidinfo()">LAfASOO</a>
+        <img src="icon.ico" width="70px" height="70px" style="margin-left : 70px">
+    </header>
+    <div id="information">
+        <div style="display: none; text-align: center;" id="spaceinf">
+            <h1 style="font: 700 32pt Calbiri , sans-serif ;"> LAfASOO </h1>
+            <p style="font-family: sans-serif;"> Numero de Telephone : +212620221275 </p>
+            <p style="font-family: 'Courier New', Courier, monospace;"> Gmail : lafasooff@gmail.com </p>
+        </div>
+    </div>
+    <div id="visite">
+        <div id="spacevisite">
+            <p style="font: oblique 600 23pt Calbiri ; color: white;"> Choisir La Methode de Contacter Avec "Lafasoo" </p>
+            <a href="https://wa.me/+212620221275/?text=Bonjour_Lafasoo"> <button class="lirean"> Whatsapp </button> </a>
+            <p style="font: 300 17pt Tahoma ;"> or <a href="https://linktr.ee/minux65" style="color: #00c0ff; font: oblique 500 19pt Tahoma ;"> Click Ici </a> </p>
+            <hr>
+            <p> <button class="btn" style="font: 400 17pt Tahoma ;" onclick="anulermore()"> Annuler </button></p>
+        </div>
+    </div>
+    <section class="home">
+        <div style="text-align: left; margin-right: 20px ; padding-left: 45px ;">
+            <p class="forever2">Des meilleurs comptes pour vous+followers+v u+like/application de haking </p>
+            <a href="#obtenir" class="btn">Obtenir</a>
+        </div>
+        <img class="s" src="homepr.png">
+    </section>
+    <p class="titre" id="obtenir">Les comptes</p>
+    <section class="fohm">
+        <img class="fahm" src="instagrame.png" onclick="readmore()">
+        <img class="fahm" src="spotify.png" onclick="readmore()">
+        <img class="fahm" src="facebook.png" onclick="readmore()">
+    </section>
+    <section class="fohm">
+        <img class="fahm" src="tiktok.png" onclick="readmore()">
+        <img class="fahm" src="pubg.png" onclick="readmore()">
+        <img class="fahm" src="netflix.png" onclick="readmore()">
+    </section>
+    <section class="fohm">
+        
+        <img class="fahm" src="iptv.png" onclick="readmore()">
+        <img class="fahm" src="free.png" onclick="readmore()">
+        <img class="fahm" src="canva.png" onclick="readmore()">
+    </section>
+    <p class="titre">Instagram</p>
+    <section class="fohm"> 
+        <img class="fahm" src="foll.png" onclick="readmore()">
+        <img class="fahm" src="amore.png" onclick="readmore()">
+        <img class="fahm" src="vu.png" onclick="readmore()">
+    </section>
+    <p class="titre">Facebook</p>
+    <section class="fohm">
+        <img class="fahm" src="foll.png" onclick="readmore()">
+        <img class="fahm" src="amore.png" onclick="readmore()">
+        <img class="fahm" src="vu.png" onclick="readmore()">
+    </section>
+    <p class="titre">Les courses</p>
+    <section class="courses">
+        <span>
+            <img class="fahma" src="hack.png"> <br>
+            <p  class="soustitre">Hake-Crake</p><br>
+            <button class="lirean" onclick="readmore()">Lire</button><br>
+        </span>
+        <span>
+            <img class="fahma" src="ecommerce.png"><br>
+            <p  class="soustitre">E-commerce</p><br>
+            <button class="lirean" onclick="readmore()">Lire</button><br>
+        </span>
+        <span>
+            <img class="fahma" src="trading.png"><br>
+            <p class="soustitre"> Treding </p><br>
+            <button class="lirean" onclick="readmore()">Lire</button><br>
+        </span>
+    </section>
+</body>
+
+</html>
